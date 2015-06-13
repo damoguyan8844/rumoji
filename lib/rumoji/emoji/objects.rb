@@ -179,6 +179,7 @@ module Rumoji
       self.new("\u{1f4c2}", [:open_file_folder]),
       self.new("\u{1f4d9}", [:orange_book]),
       self.new("\u{1f4e4}", [:outbox_tray]),
+      self.new("\u{1f4e6}", [:package]),
       self.new("\u{1f4c4}", [:page_facing_up]),
       self.new("\u{1f4c3}", [:page_with_curl]),
       self.new("\u{1f4df}", [:pager]),
