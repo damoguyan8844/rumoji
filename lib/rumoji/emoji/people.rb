@@ -93,6 +93,12 @@ module Rumoji
       self.new("\u{1F3B6}", [:notes], "MULTIPLE MUSICAL NOTES"), # "dancing notes, mood, melody"
       self.new("\u{1F3B5}", [:musical_note]), # "music, being in good mood"
       self.new("\u{1F525}", [:fire], "FIRE"),
+      # Skin Tones in Unicode 8
+      self.new("\u{1F3FB}", [:skin_tone_2], "EMOJI MODIFIER FITZPATRICK TYPE-1-2"),
+      self.new("\u{1F3FC}", [:skin_tone_3], "EMOJI MODIFIER FITZPATRICK TYPE-3"),
+      self.new("\u{1F3FD}", [:skin_tone_4], "EMOJI MODIFIER FITZPATRICK TYPE-4"),
+      self.new("\u{1F3FE}", [:skin_tone_5], "EMOJI MODIFIER FITZPATRICK TYPE-5"),
+      self.new("\u{1F3FF}", [:skin_tone_6], "EMOJI MODIFIER FITZPATRICK TYPE-6"),
       # Poop
       self.new("\u{1F4A9}", [:poop, :hankey, :shit], "PILE OF POO"), # "dog dirt"
       self.new("\u{1F44D}", [:thumbsup, :"+1"], "THUMBS UP SIGN"),
