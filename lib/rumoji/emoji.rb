@@ -5,7 +5,7 @@ module Rumoji
     attr_reader :name
 
     def initialize(string, symbols, name = nil)
-      @codepoints = string.codepoints
+      @codepoints = string.split(" ").collect { | str |  str.hex } #[string.hex]
       @cheat_codes = [symbols].flatten
       @name = name || @cheat_codes.first.to_s.upcase.gsub("_", " ")
     end

@@ -20,7 +20,8 @@ module Rumoji
   def encode_io(readable, writeable=StringIO.new(""))
     previous_codepoints = []
 
-    readable.each_codepoint do |codepoint|
+    readable.each_char do |tmp_code|
+      codepoint = tmp_code.unpack('U')[0]
       possible_emoji = Emoji.select_by_codepoint(codepoint)
 
       sequence =  if possible_emoji.empty?
